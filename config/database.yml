@@ -22,7 +22,7 @@ default: &default
   password: password
   host: localhost
 
-  development:
+development:
     <<: *default
     database: splurty_development
 
