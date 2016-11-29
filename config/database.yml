@@ -22,7 +22,6 @@ default: &default
   password: password
   host: localhost
 
-
 development:
     <<: *default
     database: splurty_development
@@ -30,7 +29,7 @@ development:
   test:
     <<: *default
     database: splurty_test
-
+    
   production:
     <<: *default
     database: splurty_production
